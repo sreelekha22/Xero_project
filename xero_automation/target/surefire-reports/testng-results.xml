@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-28T21:55:20Z" name="Command line suite" finished-at="2020-09-28T21:56:15Z" duration-ms="55652">
+    <groups>
+    </groups>
+    <test started-at="2020-09-28T21:55:20Z" name="Command line test" finished-at="2020-09-28T21:56:15Z" duration-ms="55652">
+      <class name="com.ta.xero_automation.TestID_06_A_Test_Upload_profile_image">
+        <test-method signature="launchPageTest()[pri:1, instance:com.ta.xero_automation.TestID_06_A_Test_Upload_profile_image@2f8f5f62]" started-at="2020-09-28T21:55:22Z" name="launchPageTest" finished-at="2020-09-28T21:55:22Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPageTest -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ta.xero_automation.TestID_06_A_Test_Upload_profile_image@2f8f5f62]" started-at="2020-09-28T21:55:22Z" name="openUrl" finished-at="2020-09-28T21:55:22Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+      </class> <!-- com.ta.xero_automation.TestID_06_A_Test_Upload_profile_image -->
+      <class name="com.ta.xero_automation.TestID_02_C_SignUp_to_XDC">
+        <test-method signature="launchPageTest()[pri:1, instance:com.ta.xero_automation.TestID_02_C_SignUp_to_XDC@61ca2dfa]" started-at="2020-09-28T21:55:21Z" name="launchPageTest" finished-at="2020-09-28T21:55:21Z" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPageTest -->
+      </class> <!-- com.ta.xero_automation.TestID_02_C_SignUp_to_XDC -->
+      <class name="com.ta.xero_automation.TestID_08_D_Add_organization_StandardPlan">
+        <test-method signature="launchPageTest()[pri:1, instance:com.ta.xero_automation.TestID_08_D_Add_organization_StandardPlan@5fcd892a]" started-at="2020-09-28T21:55:22Z" name="launchPageTest" finished-at="2020-09-28T21:55:22Z" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPageTest -->
+      </class> <!-- com.ta.xero_automation.TestID_08_D_Add_organization_StandardPlan -->
+      <class name="com.ta.xero_automation.TestID_08_F_Quickbooks_user">
+        <test-method signature="launchPageTest()[pri:1, instance:com.ta.xero_automation.TestID_08_F_Quickbooks_user@6483f5ae]" started-at="2020-09-28T21:55:22Z" name="launchPageTest" finished-at="2020-09-28T21:55:22Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPageTest -->
+      </class> <!-- com.ta.xero_automation.TestID_08_F_Quickbooks_user -->
+      <class name="com.ta.xero_automation.TestID_01_D_Forgot_PassWord">
+        <test-method signature="launchPageTest()[pri:1, instance:com.ta.xero_automation.TestID_01_D_Forgot_PassWord@768b970c]" started-at="2020-09-28T21:55:20Z" name="launchPageTest" finished-at="2020-09-28T21:55:21Z" duration-ms="1264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPageTest -->
+        <test-method signature="ResetPasswordTest()[pri:2, instance:com.ta.xero_automation.TestID_01_D_Forgot_PassWord@768b970c]" started-at="2020-09-28T21:56:10Z" name="ResetPasswordTest" finished-at="2020-09-28T21:56:13Z" duration-ms="3068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetPasswordTest -->
+      </class> <!-- com.ta.xero_automation.TestID_01_D_Forgot_PassWord -->
+      <class name="com.ta.xero_automation.TestID_01_A_Navigate_to_XERO">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ta.xero_automation.TestID_01_A_Navigate_to_XERO@7e9a5fbe]" started-at="2020-09-28T21:52:57Z" name="setUp" finished-at="2020-09-28T21:53:06Z" duration-ms="8984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ta.xero_automation.TestID_01_B_Incorrect_Password@44a3ec6b]" started-at="2020-09-28T21:53:06Z" name="setUp" finished-at="2020-09-28T21:53:13Z" duration-ms="6557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ta.xero_automation.TestID_01_C_Incorrect_Email@71623278]" started-at="2020-09-28T21:53:13Z" name="setUp" finished-at="2020-09-28T21:53:19Z" duration-ms="6539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ta.xero_automation.TestID_01_D_Forgot_PassWord@768b970c]" started-at="2020-09-28T21:53:19Z" name="setUp" finished-at="2020-09-28T21:53:26Z" duration-ms="6976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ta.xero_automation.TestID_02_A_SignUp_to_XDC@5a4041cc]" started-at="2020-09-28T21:53:26Z" name="setUp" finished-at="2020-09-28T21:53:33Z" duration-ms="6572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ta.xero_automation.TestID_02_B_SignUp_to_XDC@15b3e5b]" started-at="2020-09-28T21:53:33Z" name="setUp" finished-at="2020-09-28T21:53:39Z" duration-ms="6659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ta.xero_automation.TestID_02_C_SignUp_to_XDC@61ca2dfa]" started-at="2020-09-28T21:53:39Z" name="setUp" finished-at="2020-09-28T21:53:46Z" duration-ms="6786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ta.xero_automation.TestID_02_D_SignUp_to_XDC@4b53f538]" started-at="2020-09-28T21:53:46Z" name="setUp" finished-at="2020-09-28T21:53:53Z" duration-ms="6713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ta.xero_automation.TestID_02_E_SignUp_to_XDC@134593bf]" started-at="2020-09-28T21:53:53Z" name="setUp" finished-at="2020-09-28T21:53:59Z" duration-ms="6433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ta.xero_automation.TestID_03_A_Test_all_tabs_page@4bb4de6a]" started-at="2020-09-28T21:53:59Z" name="setUp" finished-at="2020-09-28T21:54:06Z" duration-ms="6628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ta.xero_automation.TestID_04_A_Test_Logout_Functionality@7ba18f1b]" started-at="2020-09-28T21:54:06Z" name="setUp" finished-at="2020-09-28T21:54:12Z" duration-ms="6396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ta.xero_automation.TestID_06_A_Test_Upload_profile_image@2f8f5f62]" started-at="2020-09-28T21:54:12Z" name="setUp" finished-at="2020-09-28T21:54:20Z" duration-ms="7874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ta.xero_automation.TestID_08_A_Add_organizationTrail_version1@1068e947]" started-at="2020-09-28T21:54:20Z" name="setUp" finished-at="2020-09-28T21:54:27Z" duration-ms="6556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ta.xero_automation.TestID_08_B_Add_organizationTrail_version1@7dc222ae]" started-at="2020-09-28T21:54:27Z" name="setUp" finished-at="2020-09-28T21:54:35Z" duration-ms="8592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ta.xero_automation.TestID_08_C_Add_another_organization_Paid_version_1@aecb35a]" started-at="2020-09-28T21:54:35Z" name="setUp" finished-at="2020-09-28T21:54:45Z" duration-ms="9943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ta.xero_automation.TestID_08_D_Add_organization_StandardPlan@5fcd892a]" started-at="2020-09-28T21:54:45Z" name="setUp" finished-at="2020-09-28T21:54:55Z" duration-ms="9187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ta.xero_automation.TestID_08_E_Add_another_organization_PremiumPlan@8b87145]" started-at="2020-09-28T21:54:55Z" name="setUp" finished-at="2020-09-28T21:55:03Z" duration-ms="8912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ta.xero_automation.TestID_08_F_Quickbooks_user@6483f5ae]" started-at="2020-09-28T21:55:03Z" name="setUp" finished-at="2020-09-28T21:55:12Z" duration-ms="8179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ta.xero_automation.TestID_10_A_CheckAll@b9afc07]" started-at="2020-09-28T21:55:12Z" name="setUp" finished-at="2020-09-28T21:55:20Z" duration-ms="8121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ta.xero_automation.TestID_01_A_Navigate_to_XERO@7e9a5fbe]" started-at="2020-09-28T21:55:20Z" name="openUrl" finished-at="2020-09-28T21:55:20Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="launchPageTest()[pri:1, instance:com.ta.xero_automation.TestID_01_A_Navigate_to_XERO@7e9a5fbe]" started-at="2020-09-28T21:55:20Z" name="launchPageTest" finished-at="2020-09-28T21:55:20Z" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPageTest -->
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ta.xero_automation.TestID_01_A_Navigate_to_XERO@7e9a5fbe]" started-at="2020-09-28T21:55:22Z" name="openUrl" finished-at="2020-09-28T21:55:22Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="logintest()[pri:2, instance:com.ta.xero_automation.TestID_01_A_Navigate_to_XERO@7e9a5fbe]" started-at="2020-09-28T21:55:22Z" name="logintest" finished-at="2020-09-28T21:55:45Z" duration-ms="22908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.ta.xero_automation.TestID_01_A_Navigate_to_XERO@7e9a5fbe]" started-at="2020-09-28T21:56:15Z" name="closingBrowser" finished-at="2020-09-28T21:56:17Z" duration-ms="1588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.ta.xero_automation.TestID_01_B_Incorrect_Password@44a3ec6b]" started-at="2020-09-28T21:56:17Z" name="closingBrowser" finished-at="2020-09-28T21:56:17Z" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.ta.xero_automation.TestID_01_C_Incorrect_Email@71623278]" started-at="2020-09-28T21:56:17Z" name="closingBrowser" finished-at="2020-09-28T21:56:17Z" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.ta.xero_automation.TestID_01_D_Forgot_PassWord@768b970c]" started-at="2020-09-28T21:56:17Z" name="closingBrowser" finished-at="2020-09-28T21:56:17Z" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.ta.xero_automation.TestID_02_A_SignUp_to_XDC@5a4041cc]" started-at="2020-09-28T21:56:17Z" name="closingBrowser" finished-at="2020-09-28T21:56:17Z" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.ta.xero_automation.TestID_02_B_SignUp_to_XDC@15b3e5b]" started-at="2020-09-28T21:56:17Z" name="closingBrowser" finished-at="2020-09-28T21:56:17Z" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.ta.xero_automation.TestID_02_C_SignUp_to_XDC@61ca2dfa]" started-at="2020-09-28T21:56:17Z" name="closingBrowser" finished-at="2020-09-28T21:56:17Z" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.ta.xero_automation.TestID_02_D_SignUp_to_XDC@4b53f538]" started-at="2020-09-28T21:56:17Z" name="closingBrowser" finished-at="2020-09-28T21:56:17Z" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.ta.xero_automation.TestID_02_E_SignUp_to_XDC@134593bf]" started-at="2020-09-28T21:56:17Z" name="closingBrowser" finished-at="2020-09-28T21:56:17Z" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.ta.xero_automation.TestID_03_A_Test_all_tabs_page@4bb4de6a]" started-at="2020-09-28T21:56:17Z" name="closingBrowser" finished-at="2020-09-28T21:56:18Z" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.ta.xero_automation.TestID_04_A_Test_Logout_Functionality@7ba18f1b]" started-at="2020-09-28T21:56:18Z" name="closingBrowser" finished-at="2020-09-28T21:56:18Z" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.ta.xero_automation.TestID_06_A_Test_Upload_profile_image@2f8f5f62]" started-at="2020-09-28T21:56:18Z" name="closingBrowser" finished-at="2020-09-28T21:56:18Z" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.ta.xero_automation.TestID_08_A_Add_organizationTrail_version1@1068e947]" started-at="2020-09-28T21:56:18Z" name="closingBrowser" finished-at="2020-09-28T21:56:18Z" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.ta.xero_automation.TestID_08_B_Add_organizationTrail_version1@7dc222ae]" started-at="2020-09-28T21:56:18Z" name="closingBrowser" finished-at="2020-09-28T21:56:18Z" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.ta.xero_automation.TestID_08_C_Add_another_organization_Paid_version_1@aecb35a]" started-at="2020-09-28T21:56:18Z" name="closingBrowser" finished-at="2020-09-28T21:56:18Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.ta.xero_automation.TestID_08_D_Add_organization_StandardPlan@5fcd892a]" started-at="2020-09-28T21:56:18Z" name="closingBrowser" finished-at="2020-09-28T21:56:18Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.ta.xero_automation.TestID_08_E_Add_another_organization_PremiumPlan@8b87145]" started-at="2020-09-28T21:56:18Z" name="closingBrowser" finished-at="2020-09-28T21:56:18Z" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.ta.xero_automation.TestID_08_F_Quickbooks_user@6483f5ae]" started-at="2020-09-28T21:56:18Z" name="closingBrowser" finished-at="2020-09-28T21:56:18Z" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.ta.xero_automation.TestID_10_A_CheckAll@b9afc07]" started-at="2020-09-28T21:56:18Z" name="closingBrowser" finished-at="2020-09-28T21:56:18Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- com.ta.xero_automation.TestID_01_A_Navigate_to_XERO -->
+      <class name="com.ta.xero_automation.TestID_08_B_Add_organizationTrail_version1">
+        <test-method signature="launchPageTest()[pri:1, instance:com.ta.xero_automation.TestID_08_B_Add_organizationTrail_version1@7dc222ae]" started-at="2020-09-28T21:55:22Z" name="launchPageTest" finished-at="2020-09-28T21:55:22Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPageTest -->
+      </class> <!-- com.ta.xero_automation.TestID_08_B_Add_organizationTrail_version1 -->
+      <class name="com.ta.xero_automation.TestID_02_D_SignUp_to_XDC">
+        <test-method signature="launchPageTest()[pri:1, instance:com.ta.xero_automation.TestID_02_D_SignUp_to_XDC@4b53f538]" started-at="2020-09-28T21:55:21Z" name="launchPageTest" finished-at="2020-09-28T21:55:22Z" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPageTest -->
+      </class> <!-- com.ta.xero_automation.TestID_02_D_SignUp_to_XDC -->
+      <class name="com.ta.xero_automation.TestID_01_C_Incorrect_Email">
+        <test-method signature="launchPageTest()[pri:1, instance:com.ta.xero_automation.TestID_01_C_Incorrect_Email@71623278]" started-at="2020-09-28T21:55:20Z" name="launchPageTest" finished-at="2020-09-28T21:55:20Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPageTest -->
+        <test-method signature="logintest()[pri:2, instance:com.ta.xero_automation.TestID_01_C_Incorrect_Email@71623278]" started-at="2020-09-28T21:55:57Z" name="logintest" finished-at="2020-09-28T21:56:10Z" duration-ms="12630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- com.ta.xero_automation.TestID_01_C_Incorrect_Email -->
+      <class name="com.ta.xero_automation.TestID_02_E_SignUp_to_XDC">
+        <test-method signature="launchPageTest()[pri:1, instance:com.ta.xero_automation.TestID_02_E_SignUp_to_XDC@134593bf]" started-at="2020-09-28T21:55:22Z" name="launchPageTest" finished-at="2020-09-28T21:55:22Z" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPageTest -->
+      </class> <!-- com.ta.xero_automation.TestID_02_E_SignUp_to_XDC -->
+      <class name="com.ta.xero_automation.TestID_03_A_Test_all_tabs_page">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ta.xero_automation.TestID_03_A_Test_all_tabs_page@4bb4de6a]" started-at="2020-09-28T21:55:22Z" name="openUrl" finished-at="2020-09-28T21:55:22Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="launchPageTest()[pri:1, instance:com.ta.xero_automation.TestID_03_A_Test_all_tabs_page@4bb4de6a]" started-at="2020-09-28T21:55:22Z" name="launchPageTest" finished-at="2020-09-28T21:55:22Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPageTest -->
+      </class> <!-- com.ta.xero_automation.TestID_03_A_Test_all_tabs_page -->
+      <class name="com.ta.xero_automation.TestID_04_A_Test_Logout_Functionality">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ta.xero_automation.TestID_04_A_Test_Logout_Functionality@7ba18f1b]" started-at="2020-09-28T21:55:22Z" name="openUrl" finished-at="2020-09-28T21:55:22Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="launchPageTest()[pri:1, instance:com.ta.xero_automation.TestID_04_A_Test_Logout_Functionality@7ba18f1b]" started-at="2020-09-28T21:55:22Z" name="launchPageTest" finished-at="2020-09-28T21:55:22Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPageTest -->
+      </class> <!-- com.ta.xero_automation.TestID_04_A_Test_Logout_Functionality -->
+      <class name="com.ta.xero_automation.TestID_10_A_CheckAll">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:com.ta.xero_automation.TestID_10_A_CheckAll@b9afc07]" started-at="2020-09-28T21:55:22Z" name="openUrl" finished-at="2020-09-28T21:55:22Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="launchPageTest()[pri:1, instance:com.ta.xero_automation.TestID_10_A_CheckAll@b9afc07]" started-at="2020-09-28T21:55:22Z" name="launchPageTest" finished-at="2020-09-28T21:55:22Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPageTest -->
+      </class> <!-- com.ta.xero_automation.TestID_10_A_CheckAll -->
+      <class name="com.ta.xero_automation.TestID_01_B_Incorrect_Password">
+        <test-method signature="launchPageTest()[pri:1, instance:com.ta.xero_automation.TestID_01_B_Incorrect_Password@44a3ec6b]" started-at="2020-09-28T21:55:20Z" name="launchPageTest" finished-at="2020-09-28T21:55:20Z" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPageTest -->
+        <test-method signature="logintest()[pri:2, instance:com.ta.xero_automation.TestID_01_B_Incorrect_Password@44a3ec6b]" started-at="2020-09-28T21:55:45Z" name="logintest" finished-at="2020-09-28T21:55:57Z" duration-ms="12501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- com.ta.xero_automation.TestID_01_B_Incorrect_Password -->
+      <class name="com.ta.xero_automation.TestID_08_A_Add_organizationTrail_version1">
+        <test-method signature="launchPageTest()[pri:1, instance:com.ta.xero_automation.TestID_08_A_Add_organizationTrail_version1@1068e947]" started-at="2020-09-28T21:55:22Z" name="launchPageTest" finished-at="2020-09-28T21:55:22Z" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPageTest -->
+      </class> <!-- com.ta.xero_automation.TestID_08_A_Add_organizationTrail_version1 -->
+      <class name="com.ta.xero_automation.TestID_08_E_Add_another_organization_PremiumPlan">
+        <test-method signature="launchPageTest()[pri:1, instance:com.ta.xero_automation.TestID_08_E_Add_another_organization_PremiumPlan@8b87145]" started-at="2020-09-28T21:55:22Z" name="launchPageTest" finished-at="2020-09-28T21:55:22Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPageTest -->
+      </class> <!-- com.ta.xero_automation.TestID_08_E_Add_another_organization_PremiumPlan -->
+      <class name="com.ta.xero_automation.TestID_02_A_SignUp_to_XDC">
+        <test-method signature="launchPageTest()[pri:1, instance:com.ta.xero_automation.TestID_02_A_SignUp_to_XDC@5a4041cc]" started-at="2020-09-28T21:55:21Z" name="launchPageTest" finished-at="2020-09-28T21:55:21Z" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPageTest -->
+        <test-method signature="FreeTrialPageTest()[pri:2, instance:com.ta.xero_automation.TestID_02_A_SignUp_to_XDC@5a4041cc]" started-at="2020-09-28T21:56:13Z" name="FreeTrialPageTest" finished-at="2020-09-28T21:56:15Z" duration-ms="2370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FreeTrialPageTest -->
+      </class> <!-- com.ta.xero_automation.TestID_02_A_SignUp_to_XDC -->
+      <class name="com.ta.xero_automation.TestID_08_C_Add_another_organization_Paid_version_1">
+        <test-method signature="launchPageTest()[pri:1, instance:com.ta.xero_automation.TestID_08_C_Add_another_organization_Paid_version_1@aecb35a]" started-at="2020-09-28T21:55:22Z" name="launchPageTest" finished-at="2020-09-28T21:55:22Z" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPageTest -->
+      </class> <!-- com.ta.xero_automation.TestID_08_C_Add_another_organization_Paid_version_1 -->
+      <class name="com.ta.xero_automation.TestID_02_B_SignUp_to_XDC">
+        <test-method signature="launchPageTest()[pri:1, instance:com.ta.xero_automation.TestID_02_B_SignUp_to_XDC@15b3e5b]" started-at="2020-09-28T21:55:21Z" name="launchPageTest" finished-at="2020-09-28T21:55:21Z" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchPageTest -->
+      </class> <!-- com.ta.xero_automation.TestID_02_B_SignUp_to_XDC -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

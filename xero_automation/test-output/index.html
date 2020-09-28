@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-RegressionSuite_Lekha" class="navigator-link">
+              <span class="suite-name border-failed">RegressionSuite Lekha</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-RegressionSuite_Lekha" class="navigator-link ">
+                    <span>C:\Users\dolby\eclipse-workspace\xero_automation\Resources_Xero\suites\regression8.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-RegressionSuite_Lekha" class="navigator-link ">
+                    <span class="test-stats">6 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-RegressionSuite_Lekha" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-RegressionSuite_Lekha" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-RegressionSuite_Lekha" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-RegressionSuite_Lekha" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-RegressionSuite_Lekha" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">23 methods, 1 failed,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-RegressionSuite_Lekha" class="hide-methods failed suite-RegressionSuite_Lekha"> (hide)</a> <!-- hide-methods failed suite-RegressionSuite_Lekha -->
+                      <a href="#" panel-name="suite-RegressionSuite_Lekha" class="show-methods failed suite-RegressionSuite_Lekha"> (show)</a> <!-- show-methods failed suite-RegressionSuite_Lekha -->
+                    </span>
+                    <div class="method-list-content failed suite-RegressionSuite_Lekha">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_B_Add_organizationTrail_version1" class="method navigator-link" hash-for-method="AddOrganizationtest">AddOrganizationtest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-RegressionSuite_Lekha -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RegressionSuite_Lekha" class="hide-methods passed suite-RegressionSuite_Lekha"> (hide)</a> <!-- hide-methods passed suite-RegressionSuite_Lekha -->
+                      <a href="#" panel-name="suite-RegressionSuite_Lekha" class="show-methods passed suite-RegressionSuite_Lekha"> (show)</a> <!-- show-methods passed suite-RegressionSuite_Lekha -->
+                    </span>
+                    <div class="method-list-content passed suite-RegressionSuite_Lekha">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_A_Add_organizationTrail_version1" class="method navigator-link" hash-for-method="AddOrganizationtest">AddOrganizationtest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_C_Add_another_organization_Paid_version_1" class="method navigator-link" hash-for-method="AddOrganizationtest">AddOrganizationtest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_D_Add_organization_StandardPlan" class="method navigator-link" hash-for-method="AddOrganizationtest">AddOrganizationtest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_E_Add_another_organization_PremiumPlan" class="method navigator-link" hash-for-method="AddOrganizationtest">AddOrganizationtest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_A_Add_organizationTrail_version1" class="method navigator-link" hash-for-method="MyXerotest">MyXerotest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_B_Add_organizationTrail_version1" class="method navigator-link" hash-for-method="MyXerotest">MyXerotest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_C_Add_another_organization_Paid_version_1" class="method navigator-link" hash-for-method="MyXerotest">MyXerotest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_F_Quickbooks_user" class="method navigator-link" hash-for-method="MyXerotest">MyXerotest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_F_Quickbooks_user" class="method navigator-link" hash-for-method="Quickbooks_test">Quickbooks_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_A_Add_organizationTrail_version1" class="method navigator-link" hash-for-method="launchPageTest">launchPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_B_Add_organizationTrail_version1" class="method navigator-link" hash-for-method="launchPageTest">launchPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_C_Add_another_organization_Paid_version_1" class="method navigator-link" hash-for-method="launchPageTest">launchPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_D_Add_organization_StandardPlan" class="method navigator-link" hash-for-method="launchPageTest">launchPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_E_Add_another_organization_PremiumPlan" class="method navigator-link" hash-for-method="launchPageTest">launchPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_F_Quickbooks_user" class="method navigator-link" hash-for-method="launchPageTest">launchPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_A_Add_organizationTrail_version1" class="method navigator-link" hash-for-method="logintest">logintest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_B_Add_organizationTrail_version1" class="method navigator-link" hash-for-method="logintest">logintest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_C_Add_another_organization_Paid_version_1" class="method navigator-link" hash-for-method="logintest">logintest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_D_Add_organization_StandardPlan" class="method navigator-link" hash-for-method="logintest">logintest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_E_Add_another_organization_PremiumPlan" class="method navigator-link" hash-for-method="logintest">logintest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_F_Quickbooks_user" class="method navigator-link" hash-for-method="logintest">logintest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-RegressionSuite_Lekha" title="com.ta.xero_automation.TestID_08_F_Quickbooks_user" class="method navigator-link" hash-for-method="validateQuickBooktest">validateQuickBooktest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RegressionSuite_Lekha -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RegressionSuite_Lekha" class="panel RegressionSuite_Lekha">
+          <div class="suite-RegressionSuite_Lekha-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.ta.xero_automation.TestID_08_B_Add_organizationTrail_version1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddOrganizationtest">
+                  </a> <!-- AddOrganizationtest -->
+                  <span class="method-name">AddOrganizationtest</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;button class=&quot;xui-button xui-actions--secondary button__2_4F- xui-button-standard xui-button-medium xui-button-fullwidth&quot; tabindex=&quot;0&quot; type=&quot;button&quot; data-automationid=&quot;NewOrgProv-BuyNow&quot;&gt;...&lt;/button&gt; is not clickable at point (657, 685). Other element would receive the click: &lt;span&gt;...&lt;/span&gt;
+  (Session info: chrome=85.0.4183.121)
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-SJNPATC&apos;, ip: &apos;192.168.0.25&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=85.0.4183.87 (cd6713ebf92fa1cacc0f1a598df280093af0c5d7-refs/branch-heads/4183@{#1689}), userDataDir=C:\Users\dolby\AppData\Local\Temp\scoped_dir24404_1055242664}, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=ANY, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:62899}, acceptInsecureCerts=false, browserVersion=85.0.4183.121, browserName=chrome, javascriptEnabled=true, platformName=windows, setWindowRect=true, webauthn:virtualAuthenticators=true}]
+Session ID: f551cfab46fadf7530958ea72dab41e1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at com.ta.xero_automation.Xero_Utility.clickObj(Xero_Utility.java:115)
+	at com.ta.Pages.Add_another_organization_Trail_version_1.BuyOrganization(Add_another_organization_Trail_version_1.java:200)
+	at com.ta.xero_automation.TestID_08_B_Add_organizationTrail_version1.AddOrganizationtest(TestID_08_B_Add_organizationTrail_version1.java:41)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite_Lekha-class-failed -->
+          <div class="suite-RegressionSuite_Lekha-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ta.xero_automation.TestID_08_A_Add_organizationTrail_version1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddOrganizationtest">
+                  </a> <!-- AddOrganizationtest -->
+                  <span class="method-name">AddOrganizationtest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyXerotest">
+                  </a> <!-- MyXerotest -->
+                  <span class="method-name">MyXerotest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchPageTest">
+                  </a> <!-- launchPageTest -->
+                  <span class="method-name">launchPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logintest">
+                  </a> <!-- logintest -->
+                  <span class="method-name">logintest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite_Lekha-class-passed -->
+          <div class="suite-RegressionSuite_Lekha-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ta.xero_automation.TestID_08_C_Add_another_organization_Paid_version_1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddOrganizationtest">
+                  </a> <!-- AddOrganizationtest -->
+                  <span class="method-name">AddOrganizationtest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyXerotest">
+                  </a> <!-- MyXerotest -->
+                  <span class="method-name">MyXerotest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchPageTest">
+                  </a> <!-- launchPageTest -->
+                  <span class="method-name">launchPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logintest">
+                  </a> <!-- logintest -->
+                  <span class="method-name">logintest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite_Lekha-class-passed -->
+          <div class="suite-RegressionSuite_Lekha-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ta.xero_automation.TestID_08_F_Quickbooks_user</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyXerotest">
+                  </a> <!-- MyXerotest -->
+                  <span class="method-name">MyXerotest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Quickbooks_test">
+                  </a> <!-- Quickbooks_test -->
+                  <span class="method-name">Quickbooks_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchPageTest">
+                  </a> <!-- launchPageTest -->
+                  <span class="method-name">launchPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logintest">
+                  </a> <!-- logintest -->
+                  <span class="method-name">logintest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateQuickBooktest">
+                  </a> <!-- validateQuickBooktest -->
+                  <span class="method-name">validateQuickBooktest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite_Lekha-class-passed -->
+          <div class="suite-RegressionSuite_Lekha-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ta.xero_automation.TestID_08_E_Add_another_organization_PremiumPlan</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddOrganizationtest">
+                  </a> <!-- AddOrganizationtest -->
+                  <span class="method-name">AddOrganizationtest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchPageTest">
+                  </a> <!-- launchPageTest -->
+                  <span class="method-name">launchPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logintest">
+                  </a> <!-- logintest -->
+                  <span class="method-name">logintest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite_Lekha-class-passed -->
+          <div class="suite-RegressionSuite_Lekha-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ta.xero_automation.TestID_08_D_Add_organization_StandardPlan</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddOrganizationtest">
+                  </a> <!-- AddOrganizationtest -->
+                  <span class="method-name">AddOrganizationtest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchPageTest">
+                  </a> <!-- launchPageTest -->
+                  <span class="method-name">launchPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logintest">
+                  </a> <!-- logintest -->
+                  <span class="method-name">logintest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite_Lekha-class-passed -->
+          <div class="suite-RegressionSuite_Lekha-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ta.xero_automation.TestID_08_B_Add_organizationTrail_version1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyXerotest">
+                  </a> <!-- MyXerotest -->
+                  <span class="method-name">MyXerotest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchPageTest">
+                  </a> <!-- launchPageTest -->
+                  <span class="method-name">launchPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logintest">
+                  </a> <!-- logintest -->
+                  <span class="method-name">logintest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RegressionSuite_Lekha-class-passed -->
+        </div> <!-- panel RegressionSuite_Lekha -->
+        <div panel-name="test-xml-RegressionSuite_Lekha" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\dolby\eclipse-workspace\xero_automation\Resources_Xero\suites\regression8.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;RegressionSuite Lekha&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC_08_A&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ta.xero_automation.TestID_08_A_Add_organizationTrail_version1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_08_A --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC_08_B&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ta.xero_automation.TestID_08_B_Add_organizationTrail_version1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_08_B --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC_08_C&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ta.xero_automation.TestID_08_C_Add_another_organization_Paid_version_1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_08_C --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC_08_D&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ta.xero_automation.TestID_08_D_Add_organization_StandardPlan&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_08_D --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC_08_E&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ta.xero_automation.TestID_08_E_Add_another_organization_PremiumPlan&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_08_E --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC_08_F&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ta.xero_automation.TestID_08_F_Quickbooks_user&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TC_08_F --&gt;
+&lt;/suite&gt; &lt;!-- RegressionSuite Lekha --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RegressionSuite_Lekha" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RegressionSuite Lekha</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TC_08_A (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC_08_B (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC_08_C (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC_08_D (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC_08_E (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TC_08_F (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RegressionSuite_Lekha" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RegressionSuite Lekha</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RegressionSuite_Lekha" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RegressionSuite Lekha</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RegressionSuite_Lekha');
+function tableData_RegressionSuite_Lekha() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(23);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'AddOrganizationtest')
+data.setCell(0, 2, 'com.ta.xero_automation.TestID_08_C_Add_another_organization_Paid_version_1')
+data.setCell(0, 3, 27015);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'AddOrganizationtest')
+data.setCell(1, 2, 'com.ta.xero_automation.TestID_08_E_Add_another_organization_PremiumPlan')
+data.setCell(1, 3, 23438);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'AddOrganizationtest')
+data.setCell(2, 2, 'com.ta.xero_automation.TestID_08_D_Add_organization_StandardPlan')
+data.setCell(2, 3, 22359);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'AddOrganizationtest')
+data.setCell(3, 2, 'com.ta.xero_automation.TestID_08_B_Add_organizationTrail_version1')
+data.setCell(3, 3, 16261);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'logintest')
+data.setCell(4, 2, 'com.ta.xero_automation.TestID_08_E_Add_another_organization_PremiumPlan')
+data.setCell(4, 3, 16250);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'logintest')
+data.setCell(5, 2, 'com.ta.xero_automation.TestID_08_A_Add_organizationTrail_version1')
+data.setCell(5, 3, 16036);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'logintest')
+data.setCell(6, 2, 'com.ta.xero_automation.TestID_08_F_Quickbooks_user')
+data.setCell(6, 3, 15832);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'AddOrganizationtest')
+data.setCell(7, 2, 'com.ta.xero_automation.TestID_08_A_Add_organizationTrail_version1')
+data.setCell(7, 3, 15648);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'logintest')
+data.setCell(8, 2, 'com.ta.xero_automation.TestID_08_D_Add_organization_StandardPlan')
+data.setCell(8, 3, 15599);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'logintest')
+data.setCell(9, 2, 'com.ta.xero_automation.TestID_08_C_Add_another_organization_Paid_version_1')
+data.setCell(9, 3, 14932);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'logintest')
+data.setCell(10, 2, 'com.ta.xero_automation.TestID_08_B_Add_organizationTrail_version1')
+data.setCell(10, 3, 14491);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Quickbooks_test')
+data.setCell(11, 2, 'com.ta.xero_automation.TestID_08_F_Quickbooks_user')
+data.setCell(11, 3, 13787);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validateQuickBooktest')
+data.setCell(12, 2, 'com.ta.xero_automation.TestID_08_F_Quickbooks_user')
+data.setCell(12, 3, 2939);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'launchPageTest')
+data.setCell(13, 2, 'com.ta.xero_automation.TestID_08_A_Add_organizationTrail_version1')
+data.setCell(13, 3, 343);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'MyXerotest')
+data.setCell(14, 2, 'com.ta.xero_automation.TestID_08_A_Add_organizationTrail_version1')
+data.setCell(14, 3, 287);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'MyXerotest')
+data.setCell(15, 2, 'com.ta.xero_automation.TestID_08_C_Add_another_organization_Paid_version_1')
+data.setCell(15, 3, 232);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'MyXerotest')
+data.setCell(16, 2, 'com.ta.xero_automation.TestID_08_B_Add_organizationTrail_version1')
+data.setCell(16, 3, 206);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'MyXerotest')
+data.setCell(17, 2, 'com.ta.xero_automation.TestID_08_F_Quickbooks_user')
+data.setCell(17, 3, 187);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'launchPageTest')
+data.setCell(18, 2, 'com.ta.xero_automation.TestID_08_B_Add_organizationTrail_version1')
+data.setCell(18, 3, 35);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'launchPageTest')
+data.setCell(19, 2, 'com.ta.xero_automation.TestID_08_F_Quickbooks_user')
+data.setCell(19, 3, 25);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'launchPageTest')
+data.setCell(20, 2, 'com.ta.xero_automation.TestID_08_C_Add_another_organization_Paid_version_1')
+data.setCell(20, 3, 19);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'launchPageTest')
+data.setCell(21, 2, 'com.ta.xero_automation.TestID_08_D_Add_organization_StandardPlan')
+data.setCell(21, 3, 17);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'launchPageTest')
+data.setCell(22, 2, 'com.ta.xero_automation.TestID_08_E_Add_another_organization_PremiumPlan')
+data.setCell(22, 3, 16);
+window.suiteTableData['RegressionSuite_Lekha']= { tableData: data, tableDiv: 'times-div-RegressionSuite_Lekha'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-RegressionSuite_Lekha">
+              </div> <!-- times-div-RegressionSuite_Lekha -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RegressionSuite_Lekha" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RegressionSuite Lekha</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RegressionSuite_Lekha" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RegressionSuite_Lekha" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ta.xero_automation.TestID_08_A_Add_organizationTrail_version1</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ta.xero_automation.TestID_08_B_Add_organizationTrail_version1</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7263 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ta.xero_automation.TestID_08_C_Add_another_organization_Paid_version_1</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14495 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ta.xero_automation.TestID_08_D_Add_organization_StandardPlan</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">22092 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ta.xero_automation.TestID_08_E_Add_another_organization_PremiumPlan</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">28575 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ta.xero_automation.TestID_08_F_Quickbooks_user</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">35223 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ta.xero_automation.TestID_08_A_Add_organizationTrail_version1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchPageTest</span>
+                <span class="method-start">41715 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logintest</span>
+                <span class="method-start">42060 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MyXerotest</span>
+                <span class="method-start">58099 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddOrganizationtest</span>
+                <span class="method-start">58387 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ta.xero_automation.TestID_08_B_Add_organizationTrail_version1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchPageTest</span>
+                <span class="method-start">74063 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logintest</span>
+                <span class="method-start">74099 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MyXerotest</span>
+                <span class="method-start">88591 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AddOrganizationtest</span>
+                <span class="method-start">88798 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ta.xero_automation.TestID_08_C_Add_another_organization_Paid_version_1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchPageTest</span>
+                <span class="method-start">105079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logintest</span>
+                <span class="method-start">105099 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MyXerotest</span>
+                <span class="method-start">120032 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddOrganizationtest</span>
+                <span class="method-start">120265 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ta.xero_automation.TestID_08_D_Add_organization_StandardPlan</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchPageTest</span>
+                <span class="method-start">147284 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logintest</span>
+                <span class="method-start">147302 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddOrganizationtest</span>
+                <span class="method-start">162902 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ta.xero_automation.TestID_08_E_Add_another_organization_PremiumPlan</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchPageTest</span>
+                <span class="method-start">185265 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logintest</span>
+                <span class="method-start">185282 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AddOrganizationtest</span>
+                <span class="method-start">201532 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ta.xero_automation.TestID_08_F_Quickbooks_user</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">launchPageTest</span>
+                <span class="method-start">224986 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logintest</span>
+                <span class="method-start">225012 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MyXerotest</span>
+                <span class="method-start">240844 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Quickbooks_test</span>
+                <span class="method-start">241031 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateQuickBooktest</span>
+                <span class="method-start">254819 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ta.xero_automation.TestID_08_A_Add_organizationTrail_version1</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closingBrowser</span>
+                <span class="method-start">257770 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ta.xero_automation.TestID_08_B_Add_organizationTrail_version1</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closingBrowser</span>
+                <span class="method-start">258800 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ta.xero_automation.TestID_08_C_Add_another_organization_Paid_version_1</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closingBrowser</span>
+                <span class="method-start">258829 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ta.xero_automation.TestID_08_D_Add_organization_StandardPlan</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closingBrowser</span>
+                <span class="method-start">258857 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ta.xero_automation.TestID_08_E_Add_another_organization_PremiumPlan</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closingBrowser</span>
+                <span class="method-start">258884 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ta.xero_automation.TestID_08_F_Quickbooks_user</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">closingBrowser</span>
+                <span class="method-start">258908 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

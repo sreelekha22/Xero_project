@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite Lekha">
+	<test name="TC_03">
+		<classes>
+			<class name="com.ta.xero_automation.TestID_03_A_Test_all_tabs_page" />
+		</classes>
+	</test> 
+	<test name="TC_04">
+		<classes>
+			<class name="com.ta.xero_automation.TestID_04_A_Test_Logout_Functionality" />
+		</classes>
+	</test>
+	<test name="TC_06">
+		<classes>
+			<class name="com.ta.xero_automation.TestID_06_A_Test_Upload_profile_image" />
+		</classes>
+	</test>
+	<test name="TC_10">
+		<classes>
+			<class name="com.ta.xero_automation.TestID_10_A_CheckAll" />
+		</classes>
+	</test>    
+</suite> 

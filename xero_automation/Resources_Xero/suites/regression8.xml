@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite Lekha">
+	<test name="TC_08_A">
+		<classes>
+			<class name="com.ta.xero_automation.TestID_08_A_Add_organizationTrail_version1" />
+		</classes>
+	</test> 
+	<test name="TC_08_B">
+		<classes>
+			<class name="com.ta.xero_automation.TestID_08_B_Add_organizationTrail_version1" />
+		</classes>
+	</test>
+	<test name="TC_08_C">
+		<classes>
+			<class name="com.ta.xero_automation.TestID_08_C_Add_another_organization_Paid_version_1" />
+		</classes>
+	</test> 
+	<test name="TC_08_D">
+		<classes>
+			<class name="com.ta.xero_automation.TestID_08_D_Add_organization_StandardPlan" />
+		</classes>
+	</test>
+	<test name="TC_08_E">
+		<classes>
+			<class name="com.ta.xero_automation.TestID_08_E_Add_another_organization_PremiumPlan" />
+		</classes>
+	</test>
+	<test name="TC_08_F">
+		<classes>
+			<class name="com.ta.xero_automation.TestID_08_F_Quickbooks_user" />
+		</classes>
+	</test>     
+</suite> 
